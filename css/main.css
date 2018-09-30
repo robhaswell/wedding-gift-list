@@ -1,0 +1,72 @@
+@font-face {
+  font-family: CopperplateGothicBold;
+  src: url(../fonts/CopperplateGothicBold.ttf);
+}
+
+@font-face {
+  font-family: Bernadette;
+  src: url(../fonts/bernadette.ttf);
+}
+
+.header .subtitle {
+  font-family: CopperplateGothicBold, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-variant: small-caps;
+  color: #812B47;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  line-height: 5rem;
+}
+
+.header .title {
+  font-family: bernadette, 'Times New Roman', Times, serif;
+  font-size: 5rem;
+  color: #0D4545;
+  text-align: center;
+  line-height: 5rem;
+  font-weight: 200;
+}
+
+.header .title .amp {
+  font-size: 3rem;
+}
+
+.header img {
+  display: block;
+  width: 40rem;
+  margin: 0 auto;
+}
+
+.header img.last {
+  transform: rotate(180deg);
+}
+
+.content {
+  color: #812B47;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+.content .title {
+  font-family: CopperplateGothicBold, 'Times New Roman', Times, serif;
+  font-size: 4rem;
+  font-variant: small-caps;
+  color: #812B47;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  line-height: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .header .title {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .header .title .amp {
+    font-size: 2rem;
+  }
+
+  .content .title {
+    font-size: 2rem;
+  }
+}
+
