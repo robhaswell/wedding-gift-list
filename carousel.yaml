@@ -1,44 +1,76 @@
----
-front: It's ours!
-raking: Clearing the garden
-raked: Cleared!
-hallway: This was the hallway prior to ripping it all out
-side-return: The garden which we extended in to
-bristol-marble-highvis: Marble shopping!
-# bristol-marble-factory: 
-first-blood: The first bits of wall come down
-chimney: We used to have chimneys
-hole-in-floor: After the chimneys were removed you could see through the floor
-masks: The dust was INCREDIBLE
-supports: First supports go in before the retaining walls are removed
-france: We went to France! Our first proper holiday together
-garden: The garden keeps bloody growing more weeds
-foundations: The foundations are layed for the new structure
-more-supports: More supports go in
-wall-down: The wall come down! This was the first time we would get an inkling of the space
-hidden-drawings: We found these hidden drawings under the structure outside
-frame: The frame of the extension is in
-engaged: We got engaged! It happened in Arnos Vale, where would be married almost a year later
-elizabeth: Our architect Elizabeth surveys the progress
-christmas: Christmas!
-plasterboard: First-fix electrics are done, plasterboard goes up
-plaster: Walls are plastered, it almost looks finished. Little did we know it would be 4 more months until we could use the kitchen
-kitchen: The kitchen is delivered! This was a scary moment as we had not seen any of this, just schematics
-fireplace: Kirsten's beloved fireplace is installed in the bedroom
-#downstairs: 
-floor-goo: The initial sealing of the floorboards (newly reclaimed) goes down
-upstairs: Sealed and sanded floorboards upstairs
-camping: WE HAVE MOVED IN!! This was a huge milestone, yet we were camping upstairs with only a bathroom, bedroom and this combined kitchen/lounge/office
-prototyping: We prototype the size and position of the kitchen island
-beast-from-east: The Beast from the East happened. Downstairs is still exposed to the elements, it was literally freezing. Luckily upstairs is nice and warm!
-kitchen-placed: Kitchen is laid out but not operational
-first-fire: We light our first fire downstairs
-glazing: Glazing is finally in downstairs. At this point we have a kettle and running water!
-kitchen-in: Kitchen is finally operational just in time (ish) for Kirsten's birthday
-building-finished: One month after the kitchen was finished, the skylights are in and all the construction is completed
-first-drink-in-garden: We celebrate our first drink in the garden
-first-party: Housewarming with the neighbours!
-kittens: Luna and Nova come in to our lives to spread joy and poop across our temporary MDF floors
-more-kittens: The kittens are worth two photos
-worksurface: Many months later, the work surface for the kitchen is installed
-floor: Floor goes down, Phase 1 building work is finished!
+front: {desc: It's ours!, date: !!timestamp '2017-09-24 14:07:42'}
+raking: {desc: Clearing the garden, date: !!timestamp '2017-05-21 13:53:30'}
+raked: {desc: Cleared!, date: !!timestamp '2017-05-21 16:36:28'}
+hallway: {desc: This was the hallway prior to ripping it all out, date: !!timestamp '2017-09-24
+    14:11:44'}
+side-return: {desc: The garden which we extended in to, date: !!timestamp '2017-09-24
+    14:16:08'}
+bristol-marble-highvis: {desc: Marble shopping!, date: !!timestamp '2017-10-02 15:21:08'}
+first-blood: {desc: The first bits of wall come down, date: !!timestamp '2017-10-10
+    16:46:06'}
+chimney: {desc: We used to have chimneys, date: !!timestamp '2017-10-10 16:49:40'}
+hole-in-floor: {desc: After the chimneys were removed you could see through the floor,
+  date: !!timestamp '2017-10-13 08:52:08'}
+masks: {desc: The dust was INCREDIBLE, date: !!timestamp '2017-10-14 12:28:48'}
+supports: {desc: First supports go in before the retaining walls are removed, date: !!timestamp '2017-10-23
+    18:05:44'}
+france: {desc: We went to France! Our first proper holiday together, date: !!timestamp '2017-10-26
+    19:47:52'}
+garden: {desc: The garden keeps bloody growing more weeds, date: !!timestamp '2017-10-28
+    11:04:28'}
+foundations: {desc: The foundations are layed for the new structure, date: !!timestamp '2017-10-28
+    11:04:50'}
+more-supports: {desc: More supports go in, date: !!timestamp '2017-10-28 11:06:34'}
+wall-down: {desc: The wall come down! This was the first time we would get an inkling
+    of the space, date: !!timestamp '2017-11-07 08:14:02'}
+hidden-drawings: {desc: We found these hidden drawings under the structure outside,
+  date: !!timestamp '2017-11-21 10:37:58'}
+frame: {desc: The frame of the extension is in, date: !!timestamp '2017-11-24 07:54:42'}
+engaged: {desc: 'We got engaged! It happened in Arnos Vale, where would be married
+    almost a year later', date: !!timestamp '2017-12-02 14:57:52'}
+elizabeth: {desc: Our architect Elizabeth surveys the progress, date: !!timestamp '2017-12-07
+    08:05:14'}
+christmas: {desc: Christmas!, date: !!timestamp '2017-12-10 16:11:56'}
+plasterboard: {desc: 'First-fix electrics are done, plasterboard goes up', date: !!timestamp '2018-01-19
+    12:25:06'}
+plaster: {desc: 'Walls are plastered, it almost looks finished. Little did we know
+    it would be 4 more months until we could use the kitchen', date: !!timestamp '2018-01-25
+    13:06:32'}
+kitchen: {desc: 'The kitchen is delivered! This was a scary moment as we had not seen
+    any of this, just schematics', date: !!timestamp '2018-02-01 09:28:46'}
+fireplace: {desc: Kirsten's beloved fireplace is installed in the bedroom, date: !!timestamp '2018-02-03
+    11:18:24'}
+floor-goo: {desc: The initial sealing of the floorboards (newly reclaimed) goes down,
+  date: !!timestamp '2018-02-15 07:36:40'}
+upstairs: {desc: Sealed and sanded floorboards upstairs, date: !!timestamp '2018-02-17
+    14:30:30'}
+camping: {desc: 'WE HAVE MOVED IN!! This was a huge milestone, yet we were camping
+    upstairs with only a bathroom, bedroom and this combined kitchen/lounge/office',
+  date: !!timestamp '2018-02-24 17:48:36'}
+prototyping: {desc: We prototype the size and position of the kitchen island, date: !!timestamp '2018-03-01
+    07:19:36'}
+beast-from-east: {desc: 'The Beast from the East happened. Downstairs is still exposed
+    to the elements, it was literally freezing. Luckily upstairs is nice and warm!',
+  date: !!timestamp '2018-03-01 21:56:38'}
+kitchen-placed: {desc: Kitchen is laid out but not operational, date: !!timestamp '2018-03-04
+    21:02:56'}
+first-fire: {desc: We light our first fire downstairs, date: !!timestamp '2018-03-16
+    16:14:28'}
+glazing: {desc: Glazing is finally in downstairs. At this point we have a kettle and
+    running water!, date: !!timestamp '2018-03-21 07:33:02'}
+kitchen-in: {desc: Kitchen is finally operational just in time (ish) for Kirsten's
+    birthday, date: !!timestamp '2018-04-07 14:41:40'}
+building-finished: {desc: 'One month after the kitchen was finished, the skylights
+    are in and all the construction is completed', date: !!timestamp '2018-05-04 19:49:34'}
+first-drink-in-garden: {desc: We celebrate our first drink in the garden, date: !!timestamp '2018-05-04
+    19:56:54'}
+first-party: {desc: Housewarming with the neighbours!, date: !!timestamp '2018-06-03
+    20:54:56'}
+kittens: {desc: Luna and Nova come in to our lives to spread joy and poop across our
+    temporary MDF floors, date: !!timestamp '2018-07-10 22:42:08'}
+more-kittens: {desc: The kittens are worth two photos, date: !!timestamp '2018-07-17
+    14:43:08'}
+worksurface: {desc: 'Many months later, the work surface for the kitchen is installed',
+  date: !!timestamp '2018-09-12 15:19:02'}
+floor: {desc: 'Floor goes down, Phase 1 building work is finished!', date: !!timestamp '2018-09-15
+    14:47:12'}
