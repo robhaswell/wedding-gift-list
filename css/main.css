@@ -13,6 +13,10 @@ a {
   color: inherit;
 }
 
+.container {
+  max-width: 960px;
+}
+
 .header .subtitle {
   font-family: CopperplateGothicBold, 'Times New Roman', Times, serif;
   font-size: 2rem;
