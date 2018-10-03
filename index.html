@@ -9,15 +9,33 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-extensions@3.0.0/dist/css/bulma-extensions.min.css"
     integrity="sha256-RuPsE2zPsNWVhhvpOcFlMaZ1JrOYp2uxbFmOLBYtidc=" crossorigin="anonymous">
   <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bulma-extensions@3.0.0/bulma-carousel/dist/js/bulma-carousel.min.js"
-    integrity="sha256-gJzCHMrQqmMLJaPTyLQbAPmKVeUCdmejQbPyYClQCh4=" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha256-rlldBDOCxqXAE1fRopHG2SqpgWisq17/3Oleo+1CBKo="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css"
+    integrity="sha256-kQW7k22C0skJMSPxgEI2VHR0LPHeygi8SRYNvV/DB2w=" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha256-iG1tiE5xJSJQhKdeOW4cPiSy+RTrnRKjjjrVQ0hexug="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha256-XvSk6Opq7XZ8oUcx213MtikXtbl5bbe4Q9tr4+NJBCg="
+    crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="css/main.css">
   <script>
-    document.addEventListener("DOMContentLoaded", function (event) {
-      console.log("loaded")
-      var carousels = bulmaCarousel.attach();
-    });
+    function openGallery() {
+      var pswpElement = document.querySelectorAll('.pswp')[0];
+
+      var items = [{ "src": "img/house/keys.jpg", "w": 2448, "h": 3264, "title": "It's ours!" }, { "src": "img/house/raking.jpg", "w": 2448, "h": 3264, "title": "Clearing the garden" }, { "src": "img/house/raked.jpg", "w": 4048, "h": 3036, "title": "Cleared!" }, { "src": "img/house/hallway.jpg", "w": 4896, "h": 3264, "title": "This was the hallway prior to ripping it all out" }, { "src": "img/house/side-return.jpg", "w": 4896, "h": 3264, "title": "The garden which we extended in to" }, { "src": "img/house/bristol-marble-highvis.jpg", "w": 3456, "h": 4608, "title": "Trip to the granite factory to find a work surface" }, { "src": "img/house/first-blood.jpg", "w": 4048, "h": 3036, "title": "The first bits of wall come down" }, { "src": "img/house/chimney.jpg", "w": 4048, "h": 3036, "title": "We used to have chimneys" }, { "src": "img/house/hole-in-floor.jpg", "w": 3036, "h": 4048, "title": "After the chimneys were removed you could see through the floor" }, { "src": "img/house/masks.jpg", "w": 3456, "h": 4608, "title": "The dust was INCREDIBLE" }, { "src": "img/house/supports.jpg", "w": 3036, "h": 4048, "title": "First supports go in before the retaining walls are removed" }, { "src": "img/house/france.jpg", "w": 3036, "h": 4048, "title": "We went to France! Our first proper holiday together" }, { "src": "img/house/garden.jpg", "w": 4048, "h": 3036, "title": "The garden keeps bloody growing more weeds" }, { "src": "img/house/foundations.jpg", "w": 3036, "h": 4048, "title": "The foundations are layed for the new structure" }, { "src": "img/house/more-supports.jpg", "w": 4048, "h": 3036, "title": "More supports go in" }, { "src": "img/house/wall-down.jpg", "w": 4048, "h": 3036, "title": "The wall come down! This was the first time we would get an inkling of the space" }, { "src": "img/house/hidden-drawings.jpg", "w": 4048, "h": 3036, "title": "We found these hidden drawings under the structure outside" }, { "src": "img/house/frame.jpg", "w": 3036, "h": 4048, "title": "The frame of the extension is in" }, { "src": "img/house/engaged.jpg", "w": 2448, "h": 3264, "title": "We got engaged! It happened in Arnos Vale, where would be married almost a year later" }, { "src": "img/house/elizabeth.jpg", "w": 4048, "h": 3036, "title": "Our architect Elizabeth surveys the progress" }, { "src": "img/house/christmas.jpg", "w": 3036, "h": 4048, "title": "Christmas!" }, { "src": "img/house/plasterboard.jpg", "w": 4048, "h": 3036, "title": "First-fix electrics are done, plasterboard goes up" }, { "src": "img/house/plaster.jpg", "w": 4048, "h": 3036, "title": "Walls are plastered, it almost looks finished. Little did we know it would be 4 more months until we could use the kitchen" }, { "src": "img/house/kitchen.jpg", "w": 4048, "h": 3036, "title": "The kitchen is delivered! This was a scary moment as we had not seen any of this, just schematics" }, { "src": "img/house/fireplace.jpg", "w": 4048, "h": 3036, "title": "Kirsten's beloved fireplace is installed in the bedroom" }, { "src": "img/house/floor-goo.jpg", "w": 4048, "h": 3036, "title": "The initial sealing of the floorboards (newly reclaimed) goes down" }, { "src": "img/house/upstairs.jpg", "w": 4048, "h": 3036, "title": "Sealed and sanded floorboards upstairs" }, { "src": "img/house/camping.jpg", "w": 1024, "h": 1024, "title": "WE HAVE MOVED IN!! This was a huge milestone, yet we were camping upstairs with only a bathroom, bedroom and this combined kitchen/lounge/office" }, { "src": "img/house/prototyping.jpg", "w": 4048, "h": 3036, "title": "We prototype the size and position of the kitchen island" }, { "src": "img/house/beast-from-east.jpg", "w": 4048, "h": 3036, "title": "The Beast from the East happened. Downstairs is still exposed to the elements, it was literally freezing. Luckily upstairs is nice and warm!" }, { "src": "img/house/kitchen-placed.jpg", "w": 4048, "h": 3036, "title": "Kitchen is laid out but not operational" }, { "src": "img/house/first-fire.jpg", "w": 3036, "h": 4048, "title": "We light our first fire downstairs" }, { "src": "img/house/glazing.jpg", "w": 4048, "h": 3036, "title": "Glazing is finally in downstairs. At this point we have a kettle and running water!" }, { "src": "img/house/kitchen-in.jpg", "w": 4048, "h": 3036, "title": "Kitchen is finally operational just in time (ish) for Kirsten's birthday" }, { "src": "img/house/building-finished.jpg", "w": 4048, "h": 3036, "title": "One month after the kitchen was finished, the skylights are in and all the construction is completed" }, { "src": "img/house/first-drink-in-garden.jpg", "w": 4048, "h": 3036, "title": "We celebrate our first drink in the garden" }, { "src": "img/house/first-party.jpg", "w": 4048, "h": 3036, "title": "Housewarming with the neighbours!" }, { "src": "img/house/kittens.jpg", "w": 4640, "h": 3480, "title": "Luna and Nova come in to our lives to spread joy and poop across our temporary MDF floors" }, { "src": "img/house/more-kittens.jpg", "w": 4048, "h": 3036, "title": "The kittens are worth two photos" }, { "src": "img/house/worksurface.jpg", "w": 4048, "h": 3036, "title": "Many months later, the work surface for the kitchen is installed" }, { "src": "img/house/floor.jpg", "w": 4048, "h": 3036, "title": "Floor goes down, Phase 1 building work is finished!" }]
+      // define options (if needed)
+      var options = {
+        // optionName: 'option value'
+        // for example:
+        index: 0 // start at first slide
+      };
+
+      // Initializes and opens PhotoSwipe
+      var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+      gallery.init();
+    }
   </script>
 </head>
 
@@ -40,36 +58,89 @@
       <p>We're enormously grateful for all the people who have expressed interest in giving us a gift for our wedding.
         As many of you know, we have both been home-making for a year, after puchasing a property together in April
         2017.
+        This has been an incredible adventure, and is very much work-in progress!
+        You can see a gallery of our renovation journey by clicking on our faces below:
       </p>
-      <div class='carousel carousel-animated carousel-animate-slide'>
-        <div class='carousel-container'>
-          <div class='carousel-item has-background is-active'>
-            <img class="is-background" src="https://wikiki.github.io/images/merry-christmas.jpg" alt="" width="640"
-              height="310" />
-            <div class="title">Merry Christmas</div>
+      <p style="text-align: center"><a href="javascript:openGallery()">
+          <img src="img/house/selfie-outside.jpg" alt="Selfie outside the house" style="width: 10rem"><br />
+          <span class="subtitle">Click to view our journey</span>
+        </a></p>
+
+      <p>Now however the adventure is paused because we are putting all our time and efforts into an amazing and
+        unforgettable wedding party.
+        Unfortunately this means that we are unable to finish our dream home as we have run out of money.
+        For this reason we ask that if you would like to honour us with a gift then we would be thrilled to accept a
+        donation to the house fund.</p>
+      <p>Your donation would go towards making the rear garden habitable for kittens &amp; children,
+        and installing a bike shed and storage upstairs so that we can begin using the front room as a living area
+        instead of a garage!</p>
+      <p>We would gladly accept your gift in person or <a href="paypal.me/pools/c/88qtyiFLTF">via PayPal</a>.</p>
+      <h2 class="title" style="margin-top: 0">Thank you!!</h2>
+      <!-- Root element of PhotoSwipe. Must have class pswp. -->
+      <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+        <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+        <div class="pswp__bg"></div>
+
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+
+          <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+          <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
           </div>
-          <div class='carousel-item has-background'>
-            <img class="is-background" src="https://wikiki.github.io/images/singer.jpg" alt="" width="640" height="310" />
-            <div class="title">Original Gift: Offer a song with <a href="https://lasongbox.com" target="_blank">La Song
-                Box</a></div>
+
+          <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+          <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+              <!--  Controls are self-explanatory. Order can be changed. -->
+
+              <div class="pswp__counter"></div>
+
+              <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+              <button class="pswp__button pswp__button--share" title="Share"></button>
+
+              <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+              <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+              <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+              <!-- element will get class pswp__preloader--active when preloader is running -->
+              <div class="pswp__preloader">
+                <div class="pswp__preloader__icn">
+                  <div class="pswp__preloader__cut">
+                    <div class="pswp__preloader__donut"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+              <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+              <div class="pswp__caption__center"></div>
+            </div>
+
           </div>
-          <div class='carousel-item has-background'>
-            <img class="is-background" src="https://wikiki.github.io/images/sushi.jpg" alt="" width="640" height="310" />
-            <div class="title">Sushi time</div>
-          </div>
-          <div class='carousel-item has-background'>
-            <img class="is-background" src="https://wikiki.github.io/images/life.jpg" alt="" width="640" height="310" />
-            <div class="title">Life</div>
-          </div>
+
         </div>
-        <div class="carousel-navigation">
-          <div class="carousel-nav-left">
-            <i class="fa fa-chevron-left" aria-hidden="true"></i>
-          </div>
-          <div class="carousel-nav-right">
-            <i class="fa fa-chevron-right" aria-hidden="true"></i>
-          </div>
-        </div>
+
       </div>
 
     </div>

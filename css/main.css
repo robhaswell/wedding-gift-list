@@ -8,6 +8,11 @@
   src: url(../fonts/bernadette.ttf);
 }
 
+a {
+  text-decoration: underline;
+  color: inherit;
+}
+
 .header .subtitle {
   font-family: CopperplateGothicBold, 'Times New Roman', Times, serif;
   font-size: 2rem;
@@ -54,6 +59,14 @@
   letter-spacing: 0.2rem;
   text-align: center;
   line-height: 5rem;
+}
+.content .subtitle {
+  font-family: CopperplateGothicBold, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-variant: small-caps;
+  color: #812B47;
+  letter-spacing: 0.1rem;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {

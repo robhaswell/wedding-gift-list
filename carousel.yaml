@@ -1,11 +1,14 @@
-front: {desc: It's ours!, date: !!timestamp '2017-09-24 14:07:42'}
+keys:
+  desc: It's ours!
+  date: !!timestamp '2017-05-19 17:52:30'
 raking: {desc: Clearing the garden, date: !!timestamp '2017-05-21 13:53:30'}
 raked: {desc: Cleared!, date: !!timestamp '2017-05-21 16:36:28'}
 hallway: {desc: This was the hallway prior to ripping it all out, date: !!timestamp '2017-09-24
     14:11:44'}
 side-return: {desc: The garden which we extended in to, date: !!timestamp '2017-09-24
     14:16:08'}
-bristol-marble-highvis: {desc: Marble shopping!, date: !!timestamp '2017-10-02 15:21:08'}
+bristol-marble-highvis: {desc: Trip to the granite factory to find a work surface,
+  date: !!timestamp '2017-10-02 15:21:08'}
 first-blood: {desc: The first bits of wall come down, date: !!timestamp '2017-10-10
     16:46:06'}
 chimney: {desc: We used to have chimneys, date: !!timestamp '2017-10-10 16:49:40'}
